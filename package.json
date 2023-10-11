@@ -6,9 +6,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "firebase": "^10.4.0",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-use-downloader": "^1.2.4"
   },
   "engines": {
     "node": ">=18"

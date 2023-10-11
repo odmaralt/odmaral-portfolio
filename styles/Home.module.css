@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -10,6 +11,15 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+}
+
+.hoverText {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 175px;
+  width: 280px;
 }
 
 .title a:hover,
@@ -57,9 +67,7 @@
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  transition:
-    color 0.15s ease,
-    border-color 0.15s ease;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover,
@@ -83,10 +91,221 @@
 .logo {
   height: 1em;
 }
+.mainDiv {
+  background-color: #1d1d22;
+  width: 100vw;
+}
+
+.headerDiv {
+  display: flex;
+  border: 1px solid #575757d2;
+  padding: 14px 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.name {
+  color: #f6f6f6;
+  font-family: Poppins;
+  font-size: 26px;
+  margin: 0px;
+  line-height: 30px;
+  padding: 16px 20px 0px;
+}
+.job {
+  color: #909d9d;
+  font-family: Poppins;
+  padding: 0px 20px 10px;
+  margin: 4px 0px;
+  font-size: 15px;
+}
+.contactDiv {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+.experienceDiv {
+  display: flex;
+  color: #f6f6f6;
+  font-family: Poppins;
+  font-size: 15px;
+  width: 40vw;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.resumeContactDiv {
+  display: flex;
+  color: #f6f6f6;
+  font-family: Poppins;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.resumeButton {
+  color: #ffffff;
+  background-color: #909d9d;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  margin-right: 10px;
+  width: 250px;
+  font-family: Poppins;
+  font-size: 15px;
+  padding: 15px 0px;
+}
+.contactButton {
+  color: #26262b;
+  background-color: #f6f6f6;
+  width: 250px;
+  padding: 15px 0px;
+  font-size: 15px;
+  font-family: Poppins;
+  cursor: pointer;
+
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+.pageSwitchDiv {
+  display: flex;
+  background-color: #26262b;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 48px 0px;
+}
+.pageSwitchDiv button {
+  color: #f6f6f6;
+  padding: 15px 20px;
+  width: 280px;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 14px;
+  border: none;
+}
+.selectedButton {
+  background-color: #1d1d22;
+  cursor: pointer;
+}
+.notSelectedButton {
+  background-color: #26262b;
+  cursor: pointer;
+}
+.footer {
+  color: #f6f6f6;
+  font-family: Poppins;
+  font-size: 14px;
+}
+.imageFlex {
+  padding: 0px 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 580px;
+}
+.imageFlex img {
+  border-radius: 10px;
+  width: 280px;
+  height: 175px;
+}
+.skillName {
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+.containerStyles {
+  height: 30px;
+  width: 100%;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  margin-bottom: 26px;
+}
+.labelStyles {
+  padding: 5;
+  color: white;
+  font-weight: bold;
+}
+.skillsPageDiv {
+  margin-bottom: 50px;
+}
+.contactLink {
+  border: none;
+  background-color: transparent;
+  width: 36px;
+  cursor: pointer;
+  margin-right: 14px;
+}
+.imageTextPortfolio {
+  width: 100%;
+  height: 98%;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-family: "Poppins";
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+@media (max-width: 850px) {
+  .experienceDiv {
+    width: 76vw;
+  }
+}
 
 @media (max-width: 600px) {
+  .experienceDiv {
+    width: 100%;
+  }
+  .pfpImg {
+    height: 140px;
+    width: 140px;
+  }
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .pageSwitchDiv button {
+    width: 150px;
+  }
+  .resumeButton {
+    width: 130px;
+  }
+  .contactButton {
+    width: 130px;
+  }
+  .headerDiv {
+    padding: 0px;
+    border: none;
+  }
+  .imageFlex img {
+    width: 74vw;
+    margin-bottom: 20px;
+  }
+  .imageFlex {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 0px;
+  }
+  .contactDiv {
+    justify-content: inherit;
+    padding-right: 0px;
+  }
+  .contactButton {
+    font-size: 12px;
+  }
+  .resumeButton {
+    font-size: 12px;
   }
 }
