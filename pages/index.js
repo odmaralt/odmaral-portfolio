@@ -7,6 +7,7 @@ import SkillsPage from "./SkillsPage";
 import { useState } from "react";
 
 export default function Home() {
+  
   const [state, setState] = useState("portfolio");
 
   const handleSkillsClick = () => {
