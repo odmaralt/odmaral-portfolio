@@ -22,11 +22,13 @@ export default function ImageContainer(props) {
       >
         {showDiv && (
           <div className={styles.imageTextPortfolio}>
-            <Link className={styles.hoverText} href={link}> {text}</Link>
+            <Link className={styles.hoverText} href={link}>
+              {text}
+            </Link>
           </div>
         )}
         <a>
-          <Image className={styles.darkenImage} src={src} />
+          <Image className={styles.darkenImage} src={src} alt="test" />
         </a>
       </div>
     </div>

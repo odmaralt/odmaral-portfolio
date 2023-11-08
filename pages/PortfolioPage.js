@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 import ImageContainer from "../components/ImageContainer";
-import { ProjectsData } from "../data/projectsData";
+import { ProjectsData } from "../data/ProjectsData";
 export default function PortfolioPage() {
   return (
     <div className={styles.portfolioPageDiv}>

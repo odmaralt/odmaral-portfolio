@@ -1,4 +1,4 @@
-export const progressData = [
+export const ProgressData = [
   { color: "#90959D", completed: 90, text: "HTML" },
   { color: "#A5BCBC", completed: 83, text: "CSS" },
   { color: "#90959D", completed: 78, text: "Javascript" },
