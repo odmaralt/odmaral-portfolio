@@ -16,7 +16,7 @@ export const ProjectsData = [
   {
     src: gameImg,
     text: "A game I built using HTML, CSS, Javascript and Firebase to save the user scores.",
-    link: "https://game-346a1.web.app/index.html",
+    link: "https://astrofloatm.web.app/",
   },
   {
     src: tntImg,
