@@ -12,7 +12,7 @@ export default function Header() {
         // Setting various property values
         const alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Curriculum.pdf";
+        alink.download = "Resume.pdf";
         alink.click();
       });
     });
@@ -116,7 +116,7 @@ export default function Header() {
           3<br></br>Years of work <br></br>experience
         </div>
         <div>
-          8+ <br></br>Completed <br></br>projects
+          12+ <br></br>Completed <br></br>projects
         </div>
       </div>
       <div className={styles.resumeContactDiv}>

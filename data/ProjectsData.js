@@ -30,8 +30,8 @@ export const ProjectsData = [
   },
   {
     src: ltmhImg,
-    text: "A website I made using Wix for an organization that aids immigrant youth in accessing resources.",
-    link: "https://jessiekang5737.wixsite.com/mysite",
+    text: "A website I made using Wix for a student-led organization that aids immigrant youth in college resources.",
+    link: "https://letterstomyheritag.wixsite.com/letterstomyheritage",
   },
   {
     src: toDoListImg,
