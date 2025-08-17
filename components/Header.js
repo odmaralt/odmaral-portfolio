@@ -113,7 +113,7 @@ export default function Header() {
       </div>
       <div className={styles.experienceDiv}>
         <div>
-          3<br></br>Years of work <br></br>experience
+          4<br></br>Years of work <br></br>experience
         </div>
         <div>
           12+ <br></br>Completed <br></br>projects
