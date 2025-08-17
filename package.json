@@ -14,7 +14,7 @@
     "yarn": "^1.22.22"
   },
   "engines": {
-    "node": "16.X"
+    "node": "18.X"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.0.1",
