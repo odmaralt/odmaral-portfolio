@@ -15,12 +15,12 @@ export const ProjectsData = [
   },
   {
     src: gameImg,
-    text: "A game I built using HTML, CSS, Javascript and Firebase to save the user scores.",
+    text: "A game created with HTML, CSS, Javascript, and Firebase, allowing users to save their scores.",
     link: "https://astrofloatm.web.app/",
   },
   {
     src: tntImg,
-    text: "A game created with HTML, CSS, Javascript, and Firebase, allowing users to save their scores.",
+    text: "A responsive website designed and developed for a contracting company using HTML, CSS, and Javascript.",
     link: "https://www.mytntgroup.com/",
   },
   {
