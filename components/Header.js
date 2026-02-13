@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import profile from "../assets/headshot.jpeg";
+import profile from "../assets/headshot.png";
 import { useRouter } from "next/router";
 export default function Header() {
   const router = useRouter();
